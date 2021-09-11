@@ -8,3 +8,6 @@ Output consists of one line that is the cluster status. (ex: "HEALTH_OK")
 
 ## Alert condition
 If "HEALTH_OK", return zero (OK), else return 1 (warning)
+
+## Security
+I have a read only dashboard account set up. The username and password are still in plain text so it is vulnerable to leakage. Can be run with NRPE to prevent the script from being visible to the nagios server.
