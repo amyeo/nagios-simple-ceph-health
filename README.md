@@ -1,4 +1,4 @@
-# Simple Ceph cluster health check for Nagios
+# Simple Ceph cluster health check for Nagios (no root)
 API based ceph cluster health checker for nagios. Uses no root and needs the dashboard plugin on the mgr node.
 
 Runs as a nagios plugin or an NRPE check. As long as the mgr node web dashboard is accessible.
